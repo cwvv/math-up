@@ -13,7 +13,7 @@ while (z > b) {
     }
     c++;
   }
-  document.write("</br>");
+  document.write("<br>");
   b++;
 }
 
