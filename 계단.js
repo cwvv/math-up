@@ -1,10 +1,18 @@
-var a = prompt("Number in!")
+var a = +prompt("Number in!");
 var z = a;
 var b = 0;
 var c;
+var d = a + 2;
+var f = a + 2;
+
+while (d > 0) {
+  document.write("-");
+  d--;
+}
 
 while (z > b) {
   c = 0;
+  document.write("|");
   while (z > c) {
     if (b > c) {
       document.write(".");
@@ -13,15 +21,24 @@ while (z > b) {
     }
     c++;
   }
+  document.write("|");
   document.write("<br>");
   b++;
 }
 
+document.write("|");
 while (a > 0) {
   document.write(".");
   a--;
 }
+document.write("|");
 
+document.write("<br>");
+
+while (f > 0) {
+  document.write("-");
+  f--;
+}
 
 
 //*****
