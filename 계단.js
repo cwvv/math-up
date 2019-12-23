@@ -10,6 +10,8 @@ while (d > 0) {
   d--;
 }
 
+document.write("<br>");
+
 while (z > b) {
   c = 0;
   document.write("|");
@@ -39,7 +41,6 @@ while (f > 0) {
   document.write("-");
   f--;
 }
-
 
 //*****
 //.****
