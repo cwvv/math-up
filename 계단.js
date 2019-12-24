@@ -5,16 +5,16 @@ var c;
 var d = a + 2;
 var f = a + 2;
 
-while (d > 0) {
+while (d > 0) {             //박스 윗줄
   document.write("-");
   d--;
 }
 
 document.write("<br>");
 
-while (z > b) {
+while (z > b) {             //n까지의 계단
   c = 0;
-  document.write("|");
+  document.write("|");      //박스 왼쪽줄
   while (z > c) {
     if (b > c) {
       document.write(".");
@@ -23,13 +23,13 @@ while (z > b) {
     }
     c++;
   }
-  document.write("|");
+  document.write("|");      //박스 오른쪽줄
   document.write("<br>");
   b++;
 }
 
 document.write("|");
-while (a > 0) {
+while (a > 0) {             //+1의 계단
   document.write(".");
   a--;
 }
@@ -37,7 +37,7 @@ document.write("|");
 
 document.write("<br>");
 
-while (f > 0) {
+while (f > 0) {             //박스 아랫줄
   document.write("-");
   f--;
 }
